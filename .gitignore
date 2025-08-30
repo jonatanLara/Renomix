@@ -1,0 +1,49 @@
+# ────────────
+# Archivos de Python
+# ────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales de virtualenv
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# ────────────
+# Base de datos local
+# ────────────
+renomix.db
+
+# ────────────
+# PyInstaller / empaquetado
+# ────────────
+main.spec
+build/
+dist/
+*.exe
+*.dll
+*.icns
+*.ico
+
+# ────────────
+# Archivos del sistema operativo
+# ────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos creados por editores/IDE
+.idea/
+.vscode/
+*.iml
